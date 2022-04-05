@@ -1,22 +1,38 @@
----------------- API -----------------
+<h1 align="center" </h1> ---------------- API ----------------- </h1>
 
-API BASIC NODEJS + POSTGRESQL 
+## Sobre:
 
-Querys:
-//GET POST PUT DELETE
+API feita para cadastrar usuário e persistir em PostgreSQL com ORM Sequelize ? pool.
 
-O Schema:  {
+CRUD
+```javascript
+
+GET
+POST
+PUT
+DELETE
+
+```
+##  Schema:  
+     
+```javascript
+
+ {
         "firstname": string,
         "lastname": string,
         "email": string
     }
 
------------------ PACKS -----------------
+```
+## ----------------- Tecnologias-----------------
 
-schm
-pool pg 
-express
-body-parser
+- [x] schm
+- [x] pool pg 
+- [x] express
+- [x] body-parser
+- [x] npm
+- [x] nodejs
+- [x] sequelize
 
 ----------------
 
